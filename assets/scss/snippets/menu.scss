@@ -1,0 +1,67 @@
+/*
+ :::  Navigation
+-------------------------------------------------- */
+.menu {
+	margin-bottom: 5em;
+	background: $color-grey;
+	
+	ul {
+		float: left;
+	}
+		
+	li {
+		float: left;
+		display: inline-block;
+	}
+	a {
+		display: block;
+		padding: 1em;
+		color: $color-white;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		
+		&.active, &:hover, &:focus {
+			background: $color-blue;
+			outline: none;
+		}
+	}
+}
+
+/*
+ :::  Search
+-------------------------------------------------- */
+.search {
+	display: block;
+	width: 100%;
+	float: right;
+	width: 35%;
+	
+	&:hover {
+		cursor: help;	
+	}
+		
+	input {
+	    display: block;
+	    padding: 1em;
+	    width: 100%;
+	    border: none;
+	    font-size: inherit;
+	    background-color: $color-grey;
+	    color: $color-white;
+	    font-family: inherit;
+	    border-radius: 0;
+	    -moz-appearance: none;
+	    -webkit-appearance: none;
+	    appearance: none;
+	    box-sizing: border-box;
+	    
+	    &::placeholder {
+		    color: $color-white;
+	    }
+	    
+	    &:focus, &:active {
+		    background: $color-blue;
+		    outline: none;
+	    }
+	}
+}	

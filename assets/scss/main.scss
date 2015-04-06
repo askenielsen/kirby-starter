@@ -1,0 +1,12 @@
+// Set imports; export as the site's css
+
+@import 'vars';			
+@import 'normalize';
+@import 'global';
+
+@import 'snippets/header';
+@import 'snippets/menu';
+@import 'snippets/footer';
+
+@import 'templates/article';
+@import 'templates/search';

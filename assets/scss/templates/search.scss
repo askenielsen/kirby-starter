@@ -1,0 +1,44 @@
+/*
+ :::  Results
+-------------------------------------------------- */
+.results {
+	margin-bottom: 5em;
+	background-color: white;
+	padding: 1.5em;
+	list-style-type: none;
+	
+	> li {
+		padding-bottom: 1em;
+		margin-bottom: 1em;
+	}
+
+	h2 {
+		margin: .6em 0 .2em;
+		font-size: 1.75em;
+		font-weight: 400;
+	}
+	
+	p {
+		margin: 0.5em 0;	
+		
+		a {
+			color: lighten($color-blue, 20%);
+		}
+	}
+}
+
+
+
+/*
+ :::  Results' heading
+-------------------------------------------------- */
+.result {
+	margin-bottom: 1em;
+	font-size: 1.5em;
+  
+	mark {
+		background: inherit;
+		color: inherit;
+	}
+}
+

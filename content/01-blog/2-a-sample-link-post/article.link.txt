@@ -1,4 +1,4 @@
-Title: A sample link post
+Title: A Simple External Link Post
 
 ----
 
@@ -6,7 +6,7 @@ Description: This could be an awesome link post.
 
 ----
 
-Linktitle: A sample link post
+Linktitle: Check Out Kirby
 
 ----
 

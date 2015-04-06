@@ -1,0 +1,136 @@
+/*
+ :::  Article basics
+-------------------------------------------------- */
+article {
+	margin-bottom: 3em;
+	padding: 1.5em;
+	background-color: white;
+	box-shadow: 0 0 10px 0.3px rgba($color-grey, 0.35);
+	
+	header {
+		margin-bottom: 2em;
+		padding-bottom: .5em;
+		border-bottom: 1px solid #333;
+		
+		h1 {
+			margin-top: 0;
+		}
+	}
+	
+	footer {
+		margin-top: 3em;
+	}
+	
+	p {
+		font-size: 1.125em;
+		line-height: 1.25em;
+		margin: 0;
+		
+		+ p {
+			margin-top: 1.5em;		
+		}
+	}
+}
+
+/*
+:::  Article meta
+-------------------------------------------------- */
+.meta {
+	font-size: 0.8em;
+}
+
+/*
+:::  Tags
+-------------------------------------------------- */
+.tags {
+	display: inline-block;
+	
+	li {
+		display: inline-block;
+		margin-right: .25em;
+		text-transform: lowercase;
+	}
+}
+
+
+/*
+:::  Content
+-------------------------------------------------- */
+
+.content {
+		
+	/*
+	 :::  Code
+	-------------------------------------------------- */
+	pre {
+		margin-bottom: 2em;
+		padding: 2em;
+		background: #f5f5f5;
+		overflow: auto;
+	}
+	
+	code {
+		font-family: 'Menlo', Courier, monospace;
+	}
+	
+	p code {
+		background-color: #eee;
+	}
+	
+	/*
+	 :::  Unordered Lists
+	-------------------------------------------------- */
+	.content ul {
+		margin-bottom: 1.5em;
+		list-style: disc inside;
+	}
+	
+	ul ul, ul ol {
+		margin-bottom: 0;
+		margin-left: 1.5em;
+	}
+	
+	/*
+	 :::  Ordered Lists
+	-------------------------------------------------- */
+	ol {
+		margin-bottom: 1.5em;
+		list-style: decimal inside;
+	}
+	ol ul, ol ol {
+		margin-bottom: 0;
+		margin-left: 1.5em;
+	}
+	
+	/*
+	 :::  Description Lists [Markdown extra feature]
+	-------------------------------------------------- */
+	dl {
+		margin-bottom: 1.5em;
+	}
+	
+	dt {
+		margin-top: 1em;
+		font-weight: 700;
+		font-size: 1.1em;
+	}
+	
+	/*
+	  :::  Tables [Markdown extra feature]
+	-------------------------------------------------- */
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		margin-bottom: 2rem;
+		
+		th, td {
+			padding: .5rem 1rem;
+			background-color: #eee;
+			border: 2px solid #fff;
+		}
+	
+		th {
+			background-color: #ddd;
+		}
+	}	
+}

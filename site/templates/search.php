@@ -34,6 +34,9 @@
       <?php foreach($results as $result): ?>
       <li>
         <h2><a href="<?php echo $result->url() ?>"><?php echo html($result->title()) ?></a></h2>
+        <a href="<?php echo $result->url() ?>"><?php echo $result->url() ?></a>
+        <p><?php echo excerpt($result->text(), 140) ?></p>
+        
         <div class="meta">
           <time datetime="<?php echo $result->date('c') ?>"><?php echo $result->date('F dS, Y'); ?></time>
           <?php if ($result->tags() != ''): ?> |
