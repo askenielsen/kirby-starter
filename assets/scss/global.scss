@@ -10,7 +10,7 @@ body {
 	background: $color-white;
 
 	//Use at discretion
-	max-width: 650px;
+	max-width: 768px;
 	margin: 0 auto;
 	
 }
@@ -88,7 +88,7 @@ a {
 	}
 }
 
-ul {
+ul, ol {
 	margin: 0;
 	padding: 0;
 	list-style-position: inside;

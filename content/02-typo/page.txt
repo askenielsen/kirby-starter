@@ -71,7 +71,7 @@ A super nice definition term
 ##Code block
 
     article h1 {
-      font-size: 3em;
-      line-height: 1.7em;
-      margin: 10px 0;
+    	font-size: 3em;
+		line-height: 1.7em;
+		margin: 10px 0;
     }
