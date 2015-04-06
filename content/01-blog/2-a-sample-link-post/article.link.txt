@@ -1,0 +1,30 @@
+Title: A sample link post
+
+----
+
+Description: This could be an awesome link post.
+
+----
+
+Linktitle: A sample link post
+
+----
+
+Customlink: http://getkirby.com
+
+----
+
+Date: 2014-07-17
+
+----
+
+Tags: tutorial,design
+
+----
+
+Text: 
+
+> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Fascetur ridiculus mus.
+
+### Header
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate.
